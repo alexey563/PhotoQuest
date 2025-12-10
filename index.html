@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <title>PhotoQuest</title>
+    <!-- Tailwind CSS через CDN для простоты (без PostCSS конфига) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        background-color: #0f172a; /* Slate 900 */
+        color: #ffffff;
+        overscroll-behavior: none;
+      }
+      /* Hide scrollbar for clean mobile look */
+      ::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.32.0",
+    "firebase/": "https://aistudiocdn.com/firebase@^12.6.0/",
+    "vite": "https://aistudiocdn.com/vite@^7.2.7",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.2",
+    "@tensorflow/tfjs": "https://esm.sh/@tensorflow/tfjs@4.17.0",
+    "@tensorflow-models/mobilenet": "https://esm.sh/@tensorflow-models/mobilenet@2.1.1"
+  }
+}
+</script>
+  <script type="module" crossorigin src="./assets/index-qVA5suyy.js"></script>
+</head>
+  <body>
+    <div id="root"></div>
+    <!-- Используем относительный путь ./index.tsx для корректной сборки Vite -->
+</body>
+</html>
